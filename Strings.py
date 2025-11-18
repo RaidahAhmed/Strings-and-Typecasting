@@ -10,7 +10,7 @@ print(word[3: 7])
 # The index '3' is where the substring starts and the index '7' is where it ends.
 # Reverse the string "Python" using slicing.
 s = "Python"
-print(s[-1:-6])
+print(s[::-1])
 # Concatenate "Python" and "Rocks" with a space in between.
 WORD_1 = "Python"
 WORD_2 = "Rocks"
